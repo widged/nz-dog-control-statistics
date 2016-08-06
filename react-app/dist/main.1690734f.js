@@ -23791,10 +23791,10 @@ Whangarei District	2016	OWN	_	0	0	0	0	0	0	0	0	0	8139	79	0	0	0	0	0`
 	      var _props = this.props;
 	      var dangerous = _props.dangerous || {};
 	      var menacing = _props.menacing || {};
-	      var total = _props.total || {};
+	      var total = _props.total;
 
-	      var dangerousClass = !dangerous.all || dangerous.all === 0 ? "dangerous no-data" : "dangerous ";
-	      var menacingClass = !menacing.all || menacing.all === 0 ? "menacing no-data" : "menacing";
+	      var dangerousClass = !dangerous || !dangerous.all || dangerous.all === 0 ? "dangerous no-data" : "dangerous ";
+	      var menacingClass = !menacing || !menacing.all || menacing.all === 0 ? "menacing no-data" : "menacing";
 	      return _react2.default.createElement(
 	        'threat-summary',
 	        null,
