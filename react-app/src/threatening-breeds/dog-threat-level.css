@@ -1,0 +1,59 @@
+dog-threat-level {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 54px;
+  width: 48px;
+  margin-right: 8px;
+  background-color: #e7ebee;
+  border-radius: 5px;
+}
+
+dog-threat-level img {
+  height: 32px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+dog-threat-level .levels {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 2px;
+  top: 2px;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+dog-threat-level .levels > div {
+  height: 16px;
+  box-sizing: border-box;
+  width: 16px;
+  border-radius: 8px;
+  line-height: 1rem;
+  text-align: center;
+}
+
+dog-threat-level .levels > .dangerous {
+  background-color: red;
+}
+
+dog-threat-level .levels > .menacing {
+  background-color: orange;
+}
+
+dog-threat-level .name {
+  position: absolute;
+  box-sizing: border-box;
+  line-height: 1.1em;
+  width: 100%;
+  max-width: 100%;
+  font-size: 8px;
+  height: 18px;
+  bottom: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #425b67;
+  color: white;
+  padding-top: 2px;
+  border-radius: 0px 0px 8px 8px;
+}

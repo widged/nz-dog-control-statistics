@@ -1,0 +1,216 @@
+council-item {
+  display: block;
+}
+
+council-item h1 {
+  font-size: 24px;
+  background-color: #4d6a79;
+  color: white;
+  padding: 3px 6px;
+}
+
+
+owner-summary,
+dog-summary {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  line-height: 1rem;
+  text-align: right;
+}
+
+owner-summary box-v > div,
+dog-summary box-v > div {
+  padding: 0;
+  margin: 0;
+}
+
+owner-summary box-v > div:nth-child(2),
+dog-summary box-v > div:nth-child(2) {
+  font-size: 0.8rem;
+  color: #a0b0b9;
+}
+
+owner-summary box-h > *,
+dog-summary box-h > * {
+  margin-right: 14px;
+}
+
+
+owner-summary .subtypes > span {
+  display: inline-block;
+  border-radius: 5px;
+  min-width: 12px;
+  text-align: center;
+  margin-left: 1px;
+  padding: 0px 1px;
+  line-height: 0.8rem;
+  font-size: 0.6rem;
+}
+
+owner-summary .subtypes > .probationary {
+  color: white;
+  background-color:  #ffaa32;
+}
+
+owner-summary .subtypes > .disqualified {
+  color: white;
+  background-color:  #df5b5e;
+}
+
+owner-summary .subtypes > .infringements {
+  color: white;
+  background-color:  #318ff6;
+}
+
+dog-summary svg path.male {
+  stroke: #318ff6;
+}
+
+dog-summary svg path.female {
+  stroke: #e72066;
+}
+
+/* threat Summary */
+
+threat-summary svg path.pure {
+  stroke: #c4cfd4;
+}
+
+threat-summary svg path.cross {
+  stroke: #446688;
+}
+
+threat-summary {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  line-height: 1em;
+}
+threat-summary > * {
+  display: inline-block;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+threat-summary > * {
+  display: inline-block;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 3px 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+threat-summary label-in-donut {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+threat-summary label-in-donut.dangerous {
+  background-color: red;
+}
+
+threat-summary label-in-donut.menacing {
+  background-color: orange;
+}
+
+threat-summary .label .percentage {
+  padding-top: 12px;
+
+}
+
+
+threat-summary .label .details {
+  font-size: 7px;
+}
+
+
+
+/* Incident Summary */
+
+incident-summary {
+  display: block;
+  margin-top: 15px;
+  font-size: 1.4rem;
+  line-height: 1rem;
+  text-align: right;
+}
+incident-summary box-v > div {
+  padding: 0;
+  margin: 0;
+}
+incident-summary box-v > div:nth-child(2) {
+  font-size: 0.8rem;
+  color: #a0b0b9;
+}
+
+incident-summary box-h > * {
+  margin-right: 21px;
+}
+
+
+incident-summary number-over-bar  {
+  text-align: right;
+}
+
+number-over-bar svg {
+  width: 50px;
+  height: 20px;
+}
+
+
+
+incident-summary svg path.this_year {
+  stroke: #446688;
+}
+
+incident-summary svg path.any_year {
+  stroke: #c4cfd4;
+}
+
+/* icon-container */
+
+owner-summary icon-container,
+dog-summary icon-container  {
+  padding: 3px 3px;
+}
+
+owner-summary icon-container > .icon,
+dog-summary icon-container > .icon {
+  margin-right: 1px;
+}
+
+incident-summary icon-container  {
+  padding: 3px 3px;
+}
+
+incident-summary icon-container > .icon {
+  margin-right: 6px;
+}
+
+incident-summary icon-container > div:nth-child(2) {
+  width: 32px;
+}
+
+/* label-in-donut */
+
+label-in-donut svg {
+  width: 50px;
+  height: 50px;
+}
+
+/* no-data */
+
+.no-data {
+  opacity: 0.3;
+}
+
+
+label-in-donut.no-data {
+  opacity: 0.1;
+}
