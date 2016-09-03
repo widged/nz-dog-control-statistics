@@ -22074,7 +22074,7 @@ Whangarei District	2016	DOG	Terrier, Jack Russell	460	229	231	361	277	0	0	0	0	0	
 Whangarei District	2016	DOG	Terrier, Staffordshire Bull	196	117	79	113	144	1	0	0	0	0	0	0	0	0	0	0
 Whangarei District	2016	DOG	Terrier, West Highland White	34	22	12	31	27	0	0	0	0	0	0	0	0	0	0	0
 Whangarei District	2016	DOG	_Unidentified_	1854	926	928	1125	1260	1	0	0	0	0	0	0	0	0	0	0
-Whangarei District	2016	OWN	_	0	0	0	0	0	0	0	0	0	8139	79	0	0	0	0	0`
+Whangarei District	2016	OWN	_	0	0	0	0	0	0	0	0	0	8139	79	0	0	0	0	0`.replace(/^\s*¬/mg,'')
 
 
 /***/ },
@@ -24212,7 +24212,7 @@ Whangarei District	2016	OWN	_	0	0	0	0	0	0	0	0	0	8139	79	0	0	0	0	0`
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* jshint esnext: true */
 
-	var url = '../../etc/icons.svg';
+	var url = 'etc/icons.svg';
 
 	var Icon = function (_Component) {
 	  _inherits(Icon, _Component);

@@ -18,7 +18,7 @@ class ItemList extends Component {
   render() {
     const {items} = this.props;
     let {renderItem} = this.bound;
-    return ( <list>{(items || []).map(renderItem)}</list> );
+    return ( <list><img className="legend" src="../etc/legend.png"/>{(items || []).map(renderItem)}</list> );
   }
 }
 

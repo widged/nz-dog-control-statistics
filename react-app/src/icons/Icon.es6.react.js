@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 
-const url = '../../etc/icons.svg'
+const url = 'etc/icons.svg'
 
 class Icon extends Component {
 
